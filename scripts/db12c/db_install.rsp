@@ -117,6 +117,10 @@ oracle.install.db.InstallEdition=EE
 #                                                                             #
 ###############################################################################
 
+#FOR silent install#
+oracle.install.IsBuiltInAccount=true
+oracle.installer.autoupdates.option=SKIP_UPDATES
+
 #------------------------------------------------------------------------------
 # The DBA_GROUP is the OS group which is to be granted OSDBA privileges.
 #-------------------------------------------------------------------------------
